@@ -1,0 +1,33 @@
+package vacc_portal;
+
+import java.awt.Font;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.BorderLayout;
+import java.awt.ComponentOrientation;
+
+public class Booking_system {
+	
+	
+	static private JPanel p1 ;
+	static private JTable tab;
+	static private JFrame f1;
+	
+	static void b_portal(Employee user) {
+		
+		p1 = new JPanel();
+		f1 = new JFrame();
+		f1.setExtendedState(JFrame.MAXIMIZED_BOTH);
+		f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		f1.setLayout(null);
+		p1.setLayout(null);
+		
+		f1.setVisible(true);
+	}
+}

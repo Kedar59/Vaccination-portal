@@ -1,0 +1,24 @@
+package vacc_portal;
+
+import java.awt.Font;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import java.awt.Dimension;
+
+public class Booking_system {
+	
+	static private JFrame frame2 ;
+	
+	/**
+	 * @wbp.parser.entryPoint
+	 */
+	static void b_portal(Employee user) {
+		frame2 = new JFrame();
+				
+		
+	}
+}

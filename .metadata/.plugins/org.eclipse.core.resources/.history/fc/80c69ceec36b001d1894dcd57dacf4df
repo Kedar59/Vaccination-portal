@@ -1,0 +1,40 @@
+package vacc_portal;
+
+import java.awt.Font;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.BorderLayout;
+
+public class Booking_system extends JFrame {
+	
+	static private JPanel contentpane ;
+	
+	/**
+	 * Launch the application
+	 */
+	static void b_portal(Employee user) {
+		EventQueue.invokeLater(new Runnable()
+				{
+					public void run() {
+						try {
+							Booking_system f1 = new Booking_system();
+							f1.setVisible(true);
+						}catch(Exception e) {
+							e.printStackTrace();
+						}
+					}
+				}
+				
+				
+				
+				);
+				
+		
+	}
+}
