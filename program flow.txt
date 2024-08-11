@@ -1,15 +1,15 @@
-1] main method of "Main" class calls login method of GUI class.
+1] main method of "vaccPortal.Main" class calls login method of vaccPortal.GUI class.
 2] IF "add new employee" button is clicked.
-	(i)n_id function from excel class is called which returns Employee id of new employee.
+	(i)n_id function from vaccPortal.excel class is called which returns vaccPortal.Employee id of new employee.
 	(ii)Then fill in all the details like name, password, dosage information etc.
 	(iii)After filling information Click on submit button.
-	(iv)Submit button call Insert function of excel class which adds a new row to excel sheet containing new employee data.
+	(iv)Submit button call Insert function of vaccPortal.excel class which adds a new row to vaccPortal.excel sheet containing new employee data.
 	Exit
 3] ELSE fill in employee ID and password then click on login button.
 	IF b_status is 1 (a appoinment is already booked)
-		(i)no_need_book function of GUI class is called which displays employees data and details of appoinment he has already booked.
+		(i)no_need_book function of vaccPortal.GUI class is called which displays employees data and details of appoinment he has already booked.
 		Exit
 	ELSE
-		(i) A b_portal function of GUI class is called which displays user information and instructions for booking.
+		(i) A b_portal function of vaccPortal.GUI class is called which displays user information and instructions for booking.
 		(ii) Then user has to enter booking date and vaccine type according to his senario.
 		(iii) After clicking on book button programme checks if the vaccination date is valid then either gives a error message    	
